@@ -14,13 +14,13 @@ while True:
     intervalo = int(input("insira um numero positivo"))
     if intervalo < 0:
         break
-    if 0 >= intervalo <=25:
+    if 0 <= intervalo <=25:
         contador1 += 1
     elif 26 >= intervalo <= 50:
         contador2 += 1
-    elif 51 >= intervalo <= 75:
+    elif 51 <= intervalo <= 75:
         contador3 +=1
-    elif 76 >= intervalo <= 100:
+    elif 76 <= intervalo <= 100:
         contador4 +=1
 
 
